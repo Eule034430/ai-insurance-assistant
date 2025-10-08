@@ -1,20 +1,16 @@
-# 🚗 AI Car Insurance Project
+# Tina – AI Car Insurance Assistant
 
-This project explores how **AI and cloud technologies** can improve the car insurance process. It uses **Computer Vision** to identify vehicles from images and a **Risk Rating API** to analyze driver claim history, producing insights that can help insurers make faster, more consistent decisions.
+Tina is a prototype **AI-powered insurance assistant** that helps users navigate car insurance policies and get personalized recommendations.  
+It was built as part of the Turners Car Insurance Project using **Generative AI (Google Gemini API)** with a simple **React frontend** and **Express.js backend**.
 
 ---
 
 ## Features
-- **Vehicle Image Analysis**  
-  - Uses Azure **Computer Vision / Custom Vision** to classify cars and detect details from uploaded images.  
-
-- **Risk Rating API (API 2)**  
-  - Converts a driver’s claim history into a **risk rating (1–5)** using keyword-based analysis.  
-
-- **Generative AI Interview App**  
-  - A mock interview chatbot powered by **Google Gemini API**, built with React + Express.  
-
-- **Containerisation**  
-  - Both frontend and backend apps are containerised using **Docker** for easy deployment.
+- **Conversational Assistant** – Users can ask Tina questions about car insurance policies.  
+- **Personalized Recommendations** – Tina suggests policy options based on user input.  
+- **Chat History Aware** – Each response considers previous conversation context.  
+- **REST API Backend** – Built with Express.js, providing endpoints for AI responses.  
+- **Modern Frontend** – React-based UI for chat interactions.  
+- **Dockerised** – Both backend and frontend packaged in Docker for portability.
 
 ---
